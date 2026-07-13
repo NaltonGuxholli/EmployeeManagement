@@ -1,0 +1,26 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Logs
+logs/
+*.log
+
+# React / Node
+node_modules/
+client-app/dist/
+client-app/.vite/
+
+# Uploaded files (runtime data)
+src/EmployeeManagement.Api/wwwroot/uploads/**
+!src/EmployeeManagement.Api/wwwroot/uploads/**/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/.env
